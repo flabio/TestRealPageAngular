@@ -1,9 +1,9 @@
 
 export class PropertieModule {
-  IdPropertie: number = 0;
-  Name: string = "";
-  Location: string = "";
-  Price: number = 0;
-  IdUser: number = 0;
+  idPropertie: number = 0;
+  name: string = "";
+  location: string = "";
+  price: number = 0;
+  idUser: number = 0;
 
 }

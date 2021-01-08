@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 
 
 
+
 import { AppComponent } from './app.component';
 import { UserComponent } from './components/user/user.component';
 import { PropertieComponent } from './components/propertie/propertie.component';
@@ -20,7 +21,8 @@ import { PropertieComponent } from './components/propertie/propertie.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

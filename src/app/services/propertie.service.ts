@@ -12,7 +12,7 @@ import { PropertieModule } from '../models/propertie/propertie.module';
 })
 export class PropertieService {
 
-  private url = "https://localhost:44381/api/propertie";
+  private url = "https://localhost:44381/propertie";
   headers = new HttpHeaders({ 'Content-Type': 'application/json; charset=utf-8' });
   constructor(private _http: HttpClient) {
 
@@ -53,7 +53,7 @@ export class PropertieService {
   }
 
   getProperties() {
-    return this._http.get(`${this.url}/listpropetie`).pipe(
+    return this._http.get(`${this.url}/listpropertie`).pipe(
       map(this.createArrar),
       delay(10)
     )
