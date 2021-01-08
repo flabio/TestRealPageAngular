@@ -1,12 +1,9 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-
-
-@NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
-})
-export class UserModule { }
+export class UserModule {
+  idUser: number = 0;
+  firstName: string = "";
+  lastName: string = "";
+  adress: string = "";
+  phone: string = "";
+  email: string = "";
+  active: boolean = true;
+}

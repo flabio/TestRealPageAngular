@@ -1,12 +1,9 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
+export class PropertieModule {
+  IdPropertie: number = 0;
+  Name: string = "";
+  Location: string = "";
+  Price: number = 0;
+  IdUser: number = 0;
 
-
-@NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
-})
-export class PropertieModule { }
+}
